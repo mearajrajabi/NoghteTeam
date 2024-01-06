@@ -39,7 +39,7 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div  className="hero">
       <div className="wrapper">
         <motion.div
           className="textContainer"
@@ -71,10 +71,10 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        NOGHTE TEAM
+       Noghte TeamWork
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.png" alt="" />
+        <img src="/hero1.png" alt="" />
       </div>
     </div>
   );
