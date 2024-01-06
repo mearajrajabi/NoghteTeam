@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 const variants = {
@@ -56,17 +55,33 @@ const Contact = () => {
       initial="initial"
       whileInView="animate"
     >
-      <div className="container_contactUs">
         <div><img src="./communicate.png" alt="" /></div>
         <div>
+                <h1 className="title">
+                Let’s work together
+                </h1>
                 <div className="boxSocial">
                 <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
                 </div>
-                <div className="boxSocial">2</div>
-                <div className="boxSocial">3</div>
-                <div className="boxSocial">4</div>
+                <div className="boxSocial">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Whatsapp</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-solid fa-square-phone"></i>
+                <span>PhoneNumber</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email</span>
+                </div>
         </div>
-      </div>
+      
    
     </motion.div>
     

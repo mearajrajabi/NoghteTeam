@@ -7,13 +7,47 @@
   display: flex;
   align-items: center;
   gap: 50px;
-
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  i {
+    font-size: 70px;
+  }
   @include mobile {
     width: 100%;
     padding: 10px;
     flex-direction: column;
   }
-
+  @media (max-width: 738px) {
+    img {
+      width: 400px !important;
+    }
+    .title {
+      font-size: 2rem !important;
+    }
+  }
+  .boxSocial{
+    display: flex;
+    align-items: center;
+    background-color: #15152a;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    cursor: pointer;
+    transition: all .5s ease-out;
+  }
+  .boxSocial:hover {
+    background-color: #855294;
+    transform: translateX(8px);
+  }
+  .title {
+    font-size: 3rem;
+    margin: 1rem 0;
+  }
+  .boxSocial span {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
   .textContainer {
     flex: 1;
     display: flex;
@@ -35,59 +69,12 @@
         font-size: 36px;
       }
     }
-
+    
     span {
       font-weight: 300;
     }
   }
-  .container_contactUs img {
-    width: 435px;
-  }
-  .formContainer {
-    flex: 1;
-    position: relative;
-    
-    @include mobile {
-      padding: 50px;
-      width: 100%;
-    }
-
-
-    .phoneSvg {
-      stroke: orange;
-      position: absolute;
-      margin: auto;
-      z-index: -1;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-
-      input,
-      textarea {
-        padding: 20px;
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
-        border-radius: 5px;
-
-        @include mobile {
-          padding: 10px;
-        }
-      }
-
-      button {
-        padding: 20px;
-        border: none;
-        background-color: orange;
-        cursor: pointer;
-        font-weight: 500;
-        @include mobile {
-          padding: 10px;
-        }
-      }
-    }
+   img {
+    width: 512px;
   }
 }
