@@ -25,7 +25,7 @@ const textVariants = {
 };
 const sliderVariants = {
   initial: {
-    x: "200",
+    x: "260",
   },
   animate: {
     x: "-200%",
