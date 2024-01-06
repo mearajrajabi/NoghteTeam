@@ -34,7 +34,7 @@
       }
 
       h1 {
-        font-size: 88px;
+        font-size: 85px;
 
         @include mobile {
           font-size: 36px;
@@ -88,5 +88,8 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 }

@@ -13,6 +13,19 @@ html {
 body {
   background-color: #0c0c1d;
   color: lightgray;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    background: unset;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 20px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgb(142, 93, 0);
+  }
 }
 
 a {
@@ -22,7 +35,7 @@ a {
 
 section {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   scroll-snap-align: center;
   overflow: hidden;
 }
