@@ -1,10 +1,11 @@
 @import "../../app.scss";
 
 .hero {
-  height: calc(100vh - 100px);
+  height: 100vh;
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
+  padding-top: 100px;
 
   .wrapper {
     max-width: 1366px;
@@ -34,7 +35,7 @@
       }
 
       h1 {
-        font-size: 88px;
+        font-size: 85px;
 
         @include mobile {
           font-size: 36px;
@@ -88,5 +89,8 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 }
