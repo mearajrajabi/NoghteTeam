@@ -342,6 +342,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .about-slider .item img {
   width: 50%;
+  height: 237px;
   margin: 0 auto 15px auto;
   background: linear-gradient(white, white) padding-box,
               linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%) border-box;
