@@ -35,6 +35,22 @@ body {
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B8B8B8;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -233,6 +249,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
+  min-height: 100vh;
   padding: 260px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
@@ -338,7 +355,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .about-slider .item img {
   width: 50%;
-  height: 237px;
+  height: 30vh;
   margin: 0 auto 15px auto;
   background: linear-gradient(white, white) padding-box,
               linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%) border-box;
