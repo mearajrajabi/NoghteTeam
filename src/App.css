@@ -317,7 +317,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #151515;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
+  padding: 60px 20px;
   margin-top: -60px;
 }
 .about h2 {
@@ -348,14 +348,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #AA367C;
 }
 .about-slider .item {
-  padding: 30px;
+  padding: 15px;
 }
 .about-slider .item p {
   font-size: 14px;
 }
 @media (max-width: 600px) {
   .about-slider .item p{
-    font-size: 11px !important;
+    font-size: 13px !important;
   }
 
 }
@@ -366,7 +366,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
-
+.react-multiple-carousel__arrow {
+  margin-top: -9rem;
+  margin-right: -10px;
+}
 /************ Projects Css ************/
 .project {
   padding: 80px 0;
