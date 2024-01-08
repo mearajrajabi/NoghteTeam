@@ -40,6 +40,9 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Web Development</h5>
+                                <span>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.
+                                </span>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />

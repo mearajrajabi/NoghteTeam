@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/communicate.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -45,8 +45,8 @@ export const Contact = () => {
 
   return (
     <section className="contact" id="connect">
-      <Container>
-        <Row className="align-items-center">
+      <Container className="container_contacts">
+        {/* <Row className="align-items-center">
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
@@ -88,7 +88,33 @@ export const Contact = () => {
               </div>}
             </TrackVisibility>
           </Col>
-        </Row>
+        </Row> */}
+        <div><img src={contactImg} alt="" /></div>
+        <div>
+                <h1 className="title">
+                Let’s work together
+                </h1>
+                <div className="boxSocial">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>Whatsapp</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-solid fa-square-phone"></i>
+                <span>PhoneNumber</span>
+                </div>
+                <div className="boxSocial">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email</span>
+                </div>
+        </div>
       </Container>
     </section>
   )
