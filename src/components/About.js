@@ -1,14 +1,12 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import Bagher from '../assets/img/bagher.jpg';
 import Erfan from '../assets/img/erfan.jpg';
+import Melaj from '../assets/img/Melaj.jpg';
+import Mahdi from '../assets/img/Mahdi.jpg';
+
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
-import AvatarPic from "../assets/img/AvatarPic.jpeg";
+
 
 export const About = () => {
   const responsive = {
@@ -40,28 +38,28 @@ export const About = () => {
                         <h2>About Us</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme about-slider">
                             <div className="item">
-                                <img src={AvatarPic} alt="Image" />
+                                <img src={Mahdi} alt="Image" />
                                 <h5>Mahdi Heyrani</h5>
                                 <h6>Front-End Developer</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p>"Mahdi has a keen interest in web technologies, website design, and making them responsive. He also has 3 years of experience working in this field and mobile development."</p>
                             </div>
                             <div className="item">
                                 <img src={Bagher} alt="Image" />
                                 <h5>Reza Bagheri</h5>
                                 <h6>Back-End Developer</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p>"Reza Backend is the work of Monet's team and his specialty is C# language and Asp.net core framework. Interested in solving new problems and challenges. Reza is very enthusiastic and always tries to use the latest technologies and available tools in the implementation of projects."</p>
                             </div>
                             <div className="item">
-                                <img src={AvatarPic} alt="Image" />
+                                <img src={Melaj} alt="Image" />
                                 <h5>Mearaj Rajabi</h5>
                                 <h6>Front-End Developer</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p>"Meraj is a front developer of our team. He is interested in designing website themes and making them beautiful. He has three years of experience in website design and development."</p>
                             </div>
                             <div className="item">
                                 <img src={Erfan} alt="Image" />
                                 <h5>Erfan Faridi</h5>
                                 <h6>Back-End Developer</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <p>"Erfan Faridi is a .net developer with three years of experience in software development. From the beginning of his career, his goal has been to produce high-quality products, and he has always moved towards improving the user experience and customer needs, and by focusing on technical improvement and providing smart solutions, he is very interested in improving his own work. In addition, he uses a customer-oriented approach in his work to always ensure that the products offered not only meet the needs of customers but also excel in terms of quality."</p>
                             </div>
                         </Carousel>
                     </div>

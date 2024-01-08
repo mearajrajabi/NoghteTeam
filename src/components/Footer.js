@@ -19,7 +19,7 @@ export const Footer = () => {
                 <a href="https://t.me/RezaBagheri31"><i class="fa-brands fa-telegram"></i></a>
                 <a href="#"><i class="fa-regular fa-envelope"></i></a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>کیر تو عرفان</p>
           </Col>
         </Row>
       </Container>
