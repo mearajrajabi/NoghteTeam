@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/communicate.png";
+import contactImg from "../assets/img/communicate2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -94,25 +94,25 @@ export const Contact = () => {
                 <h1 className="title">
                 Let’s work together
                 </h1>
-                <div className="boxSocial">
-                <i class="fab fa-instagram"></i>
-                <span>Instagram</span>
-                </div>
-                <div className="boxSocial">
-                <i class="fa-brands fa-whatsapp"></i>
-                <span>Whatsapp</span>
-                </div>
+                <a target="_blank" href="https://t.me/RezaBagheri31"> <div className="boxSocial">
+                <i class="fa-brands fa-telegram"></i>
+                <span>telegram</span>
+                </div></a>
+                <a target="_blank" href="https://www.linkedin.com/in/rezabagheri3">
                 <div className="boxSocial">
                 <i class="fa-brands fa-linkedin"></i>
                 <span>LinkedIn</span>
                 </div>
+                </a>
+                <a target="_blank" href="tel:09393255103">
                 <div className="boxSocial">
                 <i class="fa-solid fa-square-phone"></i>
-                <span>PhoneNumber</span>
+                <span>PhoneNumber: 09393255103</span>
                 </div>
+                </a>
                 <div className="boxSocial">
                 <i class="fa-regular fa-envelope"></i>
-                <span>Email</span>
+                <span>Email:NoghteTeam@gmail.com</span>
                 </div>
         </div>
       </Container>
