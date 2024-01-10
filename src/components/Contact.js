@@ -90,7 +90,7 @@ export const Contact = () => {
           </Col>
         </Row> */}
         <div><img src={contactImg} alt="" /></div>
-        <div>
+        <div className="container_boxContact">
                 <h1 className="title">
                 Let’s work together
                 </h1>
@@ -107,12 +107,12 @@ export const Contact = () => {
                 <a target="_blank" href="tel:09393255103">
                 <div className="boxSocial">
                 <i class="fa-solid fa-square-phone"></i>
-                <span>PhoneNumber: 09393255103</span>
+                <span>09393255103</span>
                 </div>
                 </a>
                 <div className="boxSocial">
                 <i class="fa-regular fa-envelope"></i>
-                <span>Email:NoghteTeam@gmail.com</span>
+                <span>NoghteTeam@gmail.com</span>
                 </div>
         </div>
       </Container>
