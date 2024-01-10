@@ -542,7 +542,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 10000;
   width: 100%;
   height: 100vh;
-  background-color: #000000d4;
+  background-color: #111111d4;
 }
 #previewProjectModal .container{ 
   display: flex;
@@ -553,8 +553,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 #previewProjectModal .container img {
   width: 80%;
-  height: 700px;
+  height: 550px;
   border-radius: 10px;
+}
+@media (max-width: 738px) {
+  #previewProjectModal .container img {
+    width: 90%;
+    height: 250px;
+  }
 }
 
 /************ Projects Css ************/
