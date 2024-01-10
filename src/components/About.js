@@ -59,7 +59,7 @@ export const About = () => {
                                 <img src={Erfan} alt="Image" />
                                 <h5>Erfan Faridi</h5>
                                 <h6>Back-End Developer</h6>
-                                <p>"Erfan Faridi is a .net developer with three years of experience in software development. From the beginning of his career, his goal has been to produce high-quality products, and he has always moved towards improving the user experience and customer needs, and by focusing on technical improvement and providing smart solutions, he is very interested in improving his own work. In addition, he uses a customer-oriented approach in his work to always ensure that the products offered not only meet the needs of customers but also excel in terms of quality."</p>
+                                <p>"Erfan Faridi is a .net developer with three years of experience in software development. From the beginning of his career, his goal has been to produce high-quality products, and he has always moved towards improving the user experience and customer needs"</p>
                             </div>
                         </Carousel>
                     </div>

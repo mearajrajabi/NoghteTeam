@@ -1,35 +1,87 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/Projects/1Proj.jpg";
-import projImg2 from "../assets/Projects/2Proj.jpg";
-import projImg3 from "../assets/Projects/3Proj.jpg";
-import projImg4 from "../assets/Projects/4Proj.jpg";
+import mpProj1 from "../assets/Projects/mp1.jpg";
+import mpProj2 from "../assets/Projects/mp2.jpg";
+import mpProj3 from "../assets/Projects/mp3.jpg";
+import mpProj4 from "../assets/Projects/mp4.jpg";
+import bekrinoProj1 from "../assets/Projects/bekrino1.jpg";
+import bekrinoProj2 from "../assets/Projects/bekrino2.jpg";
+import bekrinoProj3 from "../assets/Projects/bekrino3.jpg";
+import bekrinoProj4 from "../assets/Projects/bekrino4.jpg";
+import musicProj1 from "../assets/Projects/musicProj1.jpg";
+import musicProj2 from "../assets/Projects/musicProj2.jpg";
+import musicProj3 from "../assets/Projects/musicProj3.jpg";
+import musicProj4 from "../assets/Projects/musicProj4.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = ({changeState}) => {
 
-  const projects = [
+  const mpProj = [
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: mpProj1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: mpProj2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: mpProj3,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg4,
+      imgUrl: mpProj4,
+    }
+  ];
+  const bekrinoProj = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: bekrinoProj1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: bekrinoProj2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: bekrinoProj3,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: bekrinoProj4,
+    }
+  ];
+  const musicProj = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: musicProj1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: musicProj2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: musicProj3,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: musicProj4,
     }
   ];
 
@@ -43,23 +95,24 @@ export const Projects = ({changeState}) => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <p>Here is some of our projects...</p>
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Bekrino</Nav.Link>
+                      <Nav.Link eventKey="first">MP</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="second">Bekrino</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      <Nav.Link eventKey="third">Music Player</Nav.Link>
                     </Nav.Item>
                   </Nav>
-                <p>Bekrino is a shop website ....</p>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
+                      <p>MP project</p>
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          mpProj.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -71,9 +124,37 @@ export const Projects = ({changeState}) => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
+                    <Tab.Pane eventKey="second">
+                    <p>Bekrino project</p>
+                      <Row>
+                          {
+                            bekrinoProj.map((project, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...project}
+                                  changeState={changeState}
+                                  />
+                              )
+                            })
+                          }
+                        </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
+                    <p>Music Player project</p>
+                      <Row>
+                            {
+                              musicProj.map((project, index) => {
+                                return (
+                                  <ProjectCard
+                                    key={index}
+                                    {...project}
+                                    changeState={changeState}
+                                    />
+                                )
+                              })
+                            }
+                          </Row>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

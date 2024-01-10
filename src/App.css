@@ -358,8 +358,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .about-slider .item img {
-  width: 50%;
-  height: 30vh;
+  width: 35%;
+  height: 20vh;
   margin: 0 auto 15px auto;
   object-fit: cover;
   background: linear-gradient(white, white) padding-box,
@@ -379,8 +379,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media (max-width: 600px) {
   .about-slider .item p{
     font-size: 13px !important;
+    padding-top: 50px;
   }
-
+  .about-slider .item img{
+    width: 120px;
+    height: 120px;
+    border-width: 5px;
+  }
+  .about-slider {
+    width: 90%;
+  }
 }
 .background-image-left {
   top: 28%;
@@ -391,7 +399,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .react-multiple-carousel__arrow {
   margin-top: -10rem;
-  margin-right: -16px;
+  margin-right: 0;
 }
 /************ Projects Css ************/
 .project {
@@ -555,6 +563,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 80%;
   height: 700px;
   border-radius: 10px;
+}
+@media (max-width: 600px){
+  #previewBtn{
+    display: none;
+  }
 }
 
 /************ Projects Css ************/
