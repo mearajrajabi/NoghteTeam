@@ -312,7 +312,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
 }
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+  border-left: 0.08em solid #666;
 }
 
 /************ About Us Css ************/
@@ -410,7 +410,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills {
   direction: ltr;
-  width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);

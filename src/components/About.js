@@ -53,13 +53,13 @@ export const About = () => {
                                 <img src={Melaj} alt="Image" />
                                 <h5>معراج رجبی</h5>
                                 <h6>Front-End Developer</h6>
-                                <p>"Meraj is a front developer of our team. He is interested in designing website themes and making them beautiful. He has three years of experience in website design and development."</p>
+                                <p>"معراج دیزاینر تیم مونه و علاقه مند به طراحی رابط کاربری های زیبا و خلاقانست و سعی میکنه طرح های باب میل و زیبا پیاده سازی کنه و با 3 سال تجربه در زمینه طراحی و توسعه وب اپلیکیشین های مختلف آماده خلق اثره!"</p>
                             </div>
                             <div className="item">
                                 <img src={Erfan} alt="Image" />
                                 <h5>عرفان فریدی</h5>
                                 <h6>Back-End Developer</h6>
-                                <p>"عرفان فریدی، یک توسعه‌دهنده دات‌نت متعهد ، مسئولیت پذیر  و با تجربه هست!  عرفان از نگرش مشتری‌محورانه استفاده می‌کنه تا همیشه مطمئن باشه محصولات نه تنها نیازهای مشتریانو برطرف می‌کنن، بلکه کیفیتشون هم فوق‌العاده‌س."</p>
+                                <p>"عرفان فریدی عضو تیم بک اندمون، یک توسعه‌دهنده دات‌نت متعهد ، مسئولیت پذیر  و با تجربه هست!  عرفان از نگرش مشتری‌محورانه استفاده می‌کنه تا همیشه مطمئن باشه محصولات نه تنها نیازهای مشتریانو برطرف می‌کنن، بلکه کیفیتشون هم فوق‌العاده‌س."</p>
                             </div>
                         </Carousel>
                     </div>
@@ -70,3 +70,4 @@ export const About = () => {
     </section>
   )
 }
+

@@ -20,44 +20,44 @@ export const Projects = ({changeState}) => {
 
   const mpProj = [
     {
-      title: "Business Startup",
+      title: "صفحه لاگین",
       description: "Design & Development",
       imgUrl: mpProj1,
     },
     {
-      title: "Business Startup",
+      title: "صفحه اصلی",
       description: "Design & Development",
       imgUrl: mpProj2,
     },
     {
-      title: "Business Startup",
+      title: "بخش مدیریت ربات",
       description: "Design & Development",
       imgUrl: mpProj3,
     },
     {
-      title: "Business Startup",
+      title: "بخش فاکتور ها",
       description: "Design & Development",
       imgUrl: mpProj4,
     }
   ];
   const bekrinoProj = [
     {
-      title: "Business Startup",
+      title: "صفحه ی اصلی",
       description: "Design & Development",
       imgUrl: bekrinoProj1,
     },
     {
-      title: "Business Startup",
+      title: "بخش محصولات",
       description: "Design & Development",
       imgUrl: bekrinoProj2,
     },
     {
-      title: "Business Startup",
+      title: "بخش دسته بندی",
       description: "Design & Development",
       imgUrl: bekrinoProj3,
     },
     {
-      title: "Business Startup",
+      title: "بخش محصولات",
       description: "Design & Development",
       imgUrl: bekrinoProj4,
     }
