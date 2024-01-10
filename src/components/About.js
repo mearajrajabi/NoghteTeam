@@ -35,31 +35,31 @@ export const About = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="about-bx wow zoomIn">
-                        <h2>About Us</h2>
+                        <h2>نقطه ای ها</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme about-slider">
                             <div className="item">
                                 <img src={Mahdi} alt="Image" />
-                                <h5>Mahdi Heyrani</h5>
+                                <h5>مهدی حیرانی</h5>
                                 <h6>Front-End Developer</h6>
-                                <p>"Mahdi has a keen interest in web technologies, website design, and making them responsive. He also has 3 years of experience working in this field and mobile development."</p>
+                                <p>"مهدیِ تیم! علاقمند به طراحی رابط کاربری و پیاده سازی اونها در بستر وب و اپلیکیشن های موبایلی داره. توانایی حل مسئله ی بالایی داره و سعی میکنه همیشه ایده ها و طراح های به روزی زو ارائه بده. با 3 سال تجربه تو این زمینه خیلی تمیز میتونه کار رو در بیاره."</p>
                             </div>
                             <div className="item">
                                 <img src={Bagher} alt="Image" />
-                                <h5>Reza Bagheri</h5>
+                                <h5>رضا باقری</h5>
                                 <h6>Back-End Developer</h6>
-                                <p>"Reza Backend is the work of Monet's team and his specialty is C# language and Asp.net core framework. Interested in solving new problems and challenges. Reza is very enthusiastic and always tries to use the latest technologies and available tools in the implementation of projects."</p>
+                                <p>"رضا بک اند کار تیم مونه و تخصصش زبان C# و فریمورک Asp.net core هست. علاقه مند به حل مسائل و چالش های جدیده. رضا خیلی مشتاق یادگیریه و همیشه سعی میکنه بروزترین تکنولوژی ها و ابزارهای موجود رو در پیاده سازی پروژه ها به استفاده کنه."</p>
                             </div>
                             <div className="item">
                                 <img src={Melaj} alt="Image" />
-                                <h5>Mearaj Rajabi</h5>
+                                <h5>معراج رجبی</h5>
                                 <h6>Front-End Developer</h6>
                                 <p>"Meraj is a front developer of our team. He is interested in designing website themes and making them beautiful. He has three years of experience in website design and development."</p>
                             </div>
                             <div className="item">
                                 <img src={Erfan} alt="Image" />
-                                <h5>Erfan Faridi</h5>
+                                <h5>عرفان فریدی</h5>
                                 <h6>Back-End Developer</h6>
-                                <p>"Erfan Faridi is a .net developer with three years of experience in software development. From the beginning of his career, his goal has been to produce high-quality products, and he has always moved towards improving the user experience and customer needs"</p>
+                                <p>"عرفان فریدی، یک توسعه‌دهنده دات‌نت متعهد ، مسئولیت پذیر  و با تجربه هست!  عرفان از نگرش مشتری‌محورانه استفاده می‌کنه تا همیشه مطمئن باشه محصولات نه تنها نیازهای مشتریانو برطرف می‌کنن، بلکه کیفیتشون هم فوق‌العاده‌س."</p>
                             </div>
                         </Carousel>
                     </div>
