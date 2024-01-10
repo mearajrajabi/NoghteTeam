@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img1.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import { ArrowLeftCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -57,8 +57,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">خوش آمدید به نقطه</span>
                 <h1>{`نقطه یک تیم `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "برنامه نویس", "طراح سایت", "توسعه دهنده موبایل" ]'><span className="wrap">{text}</span></span> است.</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’ to see <ArrowRightCircle size={25} /></button>
+                  <p>تیم نرم افزاری نقطه، تجربه یه سفر خوب به دنیای نرم‌افزار رو برای شما فراهم میکنه. ما با کمک اعضای خلاق و با تجربه تیم مون، وبسایت‌های مدرن و مطابق با ارزش های کسب و کار شما ایجاد می‌کنیم. ما در تیم نقطه همواره تلاش مون بر اینه که که به کسب و کار شما کمک کنیم تا رشد کنه و به نقطه دلخواه شما برسه.
+ما با استفاده از کدنویسی اختصاصی، اول از همه سایتی رو طراحی میکنیم که مطابق با انتظارات و نیازهای شما باشه و در مرحله بعد بهترین سرعت و بیشترین امنیت رو به همراه داشته باشه.</p>
               </div>}
             </TrackVisibility>
           </Col>

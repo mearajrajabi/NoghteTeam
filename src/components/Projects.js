@@ -64,22 +64,22 @@ export const Projects = ({changeState}) => {
   ];
   const musicProj = [
     {
-      title: "Business Startup",
+      title: "صفحه ی اصلی",
       description: "Design & Development",
       imgUrl: musicProj1,
     },
     {
-      title: "Business Startup",
+      title: "جستجوی ی آهنگ",
       description: "Design & Development",
       imgUrl: musicProj2,
     },
     {
-      title: "Business Startup",
+      title: "آهنگ های موردعلاقه",
       description: "Design & Development",
       imgUrl: musicProj3,
     },
     {
-      title: "Business Startup",
+      title: "فرم ورود یا عضویت",
       description: "Design & Development",
       imgUrl: musicProj4,
     }
@@ -93,9 +93,9 @@ export const Projects = ({changeState}) => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
+                <h2>پروژه هامون</h2>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                <p>Here is some of our projects...</p>
+                <p>بریم یه تعدادی از نمونه کار هایی که تا به الان زدیم رو باهم ببینیم...</p>
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">MP</Nav.Link>
@@ -109,7 +109,7 @@ export const Projects = ({changeState}) => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <p>MP project</p>
+                      <p>این وب سایت رو برای یه شرکت تولیدی و پخش کاغذ دیواری در مشهد ساختیم.</p>
                       <Row>
                         {
                           mpProj.map((project, index) => {
@@ -125,7 +125,7 @@ export const Projects = ({changeState}) => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <p>Bekrino project</p>
+                    <p>یه وبسایت فروش دوره های آموزشی برای یه گروه جوان و با انگیزه مثل خودمون زدیم.</p>
                       <Row>
                           {
                             bekrinoProj.map((project, index) => {
@@ -141,7 +141,7 @@ export const Projects = ({changeState}) => {
                         </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <p>Music Player project</p>
+                    <p>وب اپلیکیشن پخش موزیک یکی از پروژه های قوی مونه چون تو این پروژه نمونه ای از سایت بزرگ spotify است و تا جایی که تونستیم سعی کردیم بهتر از آن با امکانات بیشتر پیاده سازی کنیم.</p>
                       <Row>
                             {
                               musicProj.map((project, index) => {
