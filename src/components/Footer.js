@@ -13,7 +13,7 @@ export const Footer = () => {
           <Col size={12} sm={6}>
             <img src={logo} alt="Logo" />
           </Col>
-          <p>تمامی حقوق مادی و معنوی این سایت متعلق به نقظه می باشد و هرگونه کپی برداری غیرقانونی محسوب خواهد شد</p>
+          <p>تمامی حقوق مادی و معنوی این سایت متعلق به نقطه می باشد و هرگونه کپی برداری غیرقانونی محسوب خواهد شد</p>
           <Col size={12} sm={6} className="text-center text-sm-end">
             {/* <div className="social-icon">
              <a href="https://www.linkedin.com/in/rezabagheri3"> <i class="fa-brands fa-linkedin"></i></a>
